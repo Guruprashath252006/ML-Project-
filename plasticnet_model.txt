@@ -1,0 +1,15 @@
+This is a placeholder.
+
+To deploy your app, you must upload your trained model file named exactly:
+plasticnet_model.pth
+
+Steps:
+1. Train your model and save it using:
+   torch.save(model.state_dict(), 'plasticnet_model.pth')
+
+2. Upload 'plasticnet_model.pth' along with 'app.py' and 'requirements.txt' to your GitHub repo.
+
+3. Deploy to Hugging Face Spaces using Gradio.
+
+Note:
+Ensure your 'app.py' loads the model using the same architecture and file name.
